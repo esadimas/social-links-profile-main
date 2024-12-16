@@ -30,7 +30,7 @@ function App() {
           <div className="card-header">
             <img
               className="image-profile"
-              src="/src/assets/images/avatar-jessica.jpeg"
+              src="/avatar-jessica.jpeg"
               alt="avatar-jessica"
             />
             <div className="card-info">
