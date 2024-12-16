@@ -23,13 +23,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-coming soon!
+![Desktop](/public/desktop.png)
+
+![Desktop](/public/mobile.png)
+
 
 ### Links
 
-- Solution URL: -
-- Live Site URL: -
+- Solution URL: - https://github.com/esadimas/social-links-profile-main
+- Live Site URL: - https://social-links-profile-main-three-nu.vercel.app/
 
 ## My process
 

@@ -13,6 +13,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--grey-900-color);
+  color: var(--white-color);
+}
+
 /* Inter Regular */
 @font-face {
   font-family: "Inter";
@@ -47,10 +52,98 @@ p {
   font-weight: 400; /* Regular */
 }
 
-/* Mobile */
-@media screen and (max-width: 375px) {
+a {
+  color: var(--white-color);
+  text-decoration: none;
 }
 
-/* Desktop */
-@media screen and (min-width: 1440px) {
+a:hover {
+  background-color: var(--green-color);
+  color: var(--grey-800-color);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-container {
+  width: 400px;
+  height: min-content;
+  background-color: var(--grey-800-color);
+  border-radius: 15px;
+}
+
+.card {
+  margin: auto;
+  padding: 40px 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 300px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5em;
+  text-align: center;
+}
+
+.card-header .image-profile {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+
+.card-info h2 {
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+}
+
+.card-info .location {
+  color: var(--green-color);
+  font-weight: 600;
+}
+
+p.quote {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.lists {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  background-color: var(--grey-700-color);
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+  .container {
+    height: 100%;
+    padding: 20px 10px;
+  }
+  .card-container {
+    width: 350px;
+  }
+  p.quote {
+    font-size: 0.8rem;
+  }
 }
